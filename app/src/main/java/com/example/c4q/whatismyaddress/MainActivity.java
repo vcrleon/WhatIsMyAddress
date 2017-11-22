@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
                 SharedPreferences.Editor editor = address.edit();
                 editor.putString("email address", email.getText().toString());
                 email.setText(address.getString("email address", null));
+                editor.commit();
             }
         });
 
