@@ -6,4 +6,16 @@
     android:layout_height="match_parent"
     tools:context="com.example.c4q.whatismyaddress.DisplayActivity">
 
+    <TextView
+        android:id="@+id/display_textview1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="50sp"/>
+
+    <TextView
+        android:id="@+id/display_textview2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="50sp"/>
+
 </android.support.constraint.ConstraintLayout>
